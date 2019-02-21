@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  kata:
+    container_name: kata
+    build: .
+    volumes:
+      - ".:/app"
